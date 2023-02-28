@@ -1,11 +1,7 @@
 
 html, body{
   width:100%; height:100%; margin:0;
-
-
-  
-  /* добавим плавность переходов для всех элементов страницы*/
-  
+    
   background: #ffffff;
 
   font-family: "More is less 22 Displacement";
@@ -46,43 +42,15 @@ h6 {
 /*стили для БОДИ конец */
 
 
-/*контейнер*/
-
-.wrapper {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  max-height: 100%;
-  overflow: hidden;
-}
-
-.container {
-    
-  position: relative;
-  max-width: 100%;
-  min-height: auto;
-  margin: 0 auto;
-  background-size: contain;
-}
-
-.img1 { 
-  max-width: 100%;
-  height: auto;
-  max-height:100%;
-  display: flex;
-  justify-content: center;
-}
-
-  
-
-
-/* .wrapper  {
-  filter: blur(5px); /* Размытие изображения */
-  /* transition: 1s; Время перехода */
-
+/* _____________________________________________ */
+/* 
+.wrapper .cloud  {
+  filter: blur(5px); 
+ transition: 1s; 
+} */
 
 /* .wrapper:hover   {
-  filter: blur(0); /* Отменяем размытие */
+  filter: blur(0); /* Отменяем размытие
 
 
 /* .container {
@@ -121,6 +89,54 @@ h6 {
 }
 .cloud:hover {
   transform: scale(1.8); /* Увеличиваем масштаб */
+}
+
+/* @media (hover: hover) {
+  #wrapper {
+    filter: blur(10);
+  }
+} */
+
+
+/* 
+.cloud wrapper:hover  {
+  filter: blur(10);
+} */
+
+
+/* 
+#container #cloud1:hover  {
+  filter: blur(5px); 
+ 
+} */
+/* _____________________________________________ */
+
+
+
+/*контейнер*/
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+    
+  position: relative;
+  max-width: 100%;
+  min-height: auto;
+  margin: 0 auto;
+  background-size: contain;
+}
+
+.img1 { 
+  max-width: 100%;
+  height: auto;
+  max-height:100%;
+  display: flex;
+  justify-content: center;
 }
 
 /*Стили текстов*/
@@ -507,30 +523,30 @@ h6 {
     }
   
   #t1 {
-    width: 30%;
+    width: 6%;
     font-size: 265%;
-    left: 4%;
+    left: 16%;
     top:10%;
     }
 
   #t2 {
-    width: 44%;
+    width: 2%;
     font-size: 180%;
-    left: 2%;
+    left: 23%;
     top: 12%;
     }
 
   #t3 {
-    width: 30%;
+    width: 9%;
     font-size: 230%;
-    left: 15%;
+    left: 26%;
     top: 12%;
     }
 
   #t4 {
-    width: 65%;
+    width: 23%;
     font-size: 142%;
-    left: 15%;
+    left: 36%;
     top: 13.4%;
     }    
 
@@ -597,30 +613,30 @@ h6 {
   /* 1280-1366 */
 @media (min-width: 1277px) and (max-width: 1366px){ 
 #t1 {
-    width: 30%;
+    width: 6%;
     font-size: 290%;
-    left: 3%;
+    left: 15%;
     top:11%;
     }
 
   #t2 {
-    width: 44%;
+    width: 2%;
     font-size: 200%;
-    left: 0%;
+    left: 21.2%;
     top: 12.5%;
     }
 
   #t3 {
-    width: 30%;
+    width: 9%;
     font-size: 260%;
-    left: 12.5%;
+    left: 23.3%;
     top: 12.5%;
     }
 
   #t4 {
-    width: 65%;
+    width: 25%;
     font-size: 205%;
-    left: 13%;
+    left: 33%;
     top: 13.4%;
     }    
 
@@ -690,30 +706,30 @@ h6 {
   /* 1440-1536 */
 @media (min-width: 1438px) and (max-width: 1536px){ 
 #t1 {
-  width: 30%;
+  width: 7%;
   font-size: 360%;
-  left: 4%;
+  left: 15%;
   top: 11.5%;
   }
 
 #t2 {
-  width: 44%;
+  width: 2%;
   font-size: 240%;
-  left: 2%;
+  left: 22.3%;
   top: 13%;
   }
 
 #t3 {
-  width: 30%;
+  width: 9%;
   font-size: 310%;
-  left: 15%;
+  left: 25%;
   top: 12.9%;
   }
 
 #t4 {
-  width: 65%;
+  width: 25%;
   font-size: 210%;
-  left: 15%;
+  left: 34%;
   top: 14.4%;
   }    
 
@@ -778,30 +794,30 @@ h6 {
   /* 1536-1920 */
 @media (min-width: 1534px) and (max-width: 1920px){ 
 #t1 {
-  width: 30%;
+  width: 6%;
   font-size: 375%;
-  left: 4%;
+  left: 16%;
   top: 11.8%;
   }
 
 #t2 {
-  width: 44%;
+  width: 2%;
   font-size: 255%;
-  left: 2%;
+  left: 23%;
   top: 13%;
   }
 
 #t3 {
-  width: 30%;
+  width: 9%;
   font-size: 325%;
-  left: 15%;
+  left: 25.3%;
   top: 12.9%;
   }
 
 #t4 {
-  width: 65%;
+  width: 24%;
   font-size: 225%;
-  left: 14.5%;
+  left: 35%;
   top: 14.4%;
   }    
 
@@ -864,32 +880,32 @@ h6 {
 }
 
 /* 1920 - цент блок с отступами  */
-@media (min-width: 1918px) and (max-width: 1980px){ 
+@media (min-width: 1918px) and (max-width: 1985px){ 
 #t1 {
-  width: 30%;
+  width: 8%;
   font-size: 500%;
-  left: 4%;
+  left: 15%;
   top: 12.6%;
   }
 
 #t2 {
-  width: 44%;
+  width: 2%;
   font-size: 360%;
-  left: 2.5%;
+  left: 23%;
   top: 14%;
   }
 
 #t3 {
-  width: 30%;
+  width: 9%;
   font-size: 420%;
-  left: 15.5%;
+  left: 26%;
   top: 13.5%;
   }
 
 #t4 {
-  width: 65%;
+  width: 24%;
   font-size: 275%;
-  left: 15.2%;
+  left: 35.3%;
   top: 14.4%;
   }    
 
@@ -955,32 +971,36 @@ h6 {
   }  
 }
 
-@media  (min-width: 1978px) and (max-width: 2560px){
+@media  (min-width: 1986px) and (max-width: 2560px){
 #t1 {
-  width: 30%;
+  width: 8%;
+  height: 5%;
   font-size: 750%;
-  left: 5%;
+  left: 15.3%;
   top: 13%;
   }
 
 #t2 {
-  width: 44%;
+  width: 2%;
+  height: 3%;
   font-size: 450%;
-  left: 3.5%;
+  left: 24%;
   top: 14%;
   }
 
 #t3 {
-  width: 30%;
+  width: 9%;
+  height: 4%;
   font-size: 550%;
-  left: 16.3%;
+  left: 26.6%;
   top: 14%;
   }
 
 #t4 {
-  width: 65%;
+  width: 24%;
+  height: 3%;
   font-size: 355%;
-  left: 15.1%;
+  left: 35.4%;
   top: 15.1%;
   }    
 
