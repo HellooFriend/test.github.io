@@ -379,14 +379,84 @@ body{
 
   /*Брек поинт*/
 
-/* 1280 основной стиль */
-/* @media (min-width: 1278px) and (max-width: 1366px){ 
- 
-} */
+@media (min-width: 1280px) and (max-width: 1360px){
+    #body1 {
+      background: url(../2.Architects/minbaner.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../2.Architects/minbaner.jpg',     sizingMethod='scale');
+      -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../2.Architects/minbaner.jpg', sizingMethod='scale'); 
+    }
+    
+    #text_1 {
+      width: 70%;
+      font-size: 344%;
+      left: 12.8%;
+      top: 0.3%;
+    }
+  
+    .text2 {
+      width: 75%;
+      left: 14%;
+      top: 20%;
+    }
+  
+    #t {
+      font-size: 105%;
+    }
+  
+    #t_t.t3 {
+      width: 620px;
+      font-size: 105%;
+      line-height: 120%;
+    } 
+  
+    .oll_in_one {
+      width: 40%;
+      left: 44%;
+      top: 38%;
+    }
+  
+    .z_1 {
+      font-size: 320%;
+    }
+  
+    .z_2 {
+      font-size: 200%;
+      margin: 0 0 0 25px;
+    }
+  
+    .z_3 {
+      font-size: 240%;
+      margin: 0 0 0 40px;
+    }
+  
+    .social {
+      width: 10%;
+      height: 5%;
+      left: 75%;
+      top: 86%;
+    }
+  
+    #social_1 {
+      width: 27%;
+      height: 70%;
+    }
+  
+    .exit_bloc {
+      width: 10%;
+      left: 14%;
+      top: 85%;
+    }
+  
+    #exit_bloc_id {
+      width: 18%;
+      height: 100%;
+    } 
+}
 
-
-
-  /* 1366-1440 */
 @media (min-width: 1360px) and (max-width: 1440px){
   #text_1 {
     width: 70%;
@@ -470,13 +540,14 @@ body{
 
   .social {
     width: 10%;
-    left: 78%;
+    height: 5%;
+    left: 79%;
     top: 85%;
   }
 
   #social_1 {
-    width: 17.5%;
-    height: 22%;
+    width: 27%;
+    height: 80%;
   }
 
   .exit_bloc {
@@ -537,13 +608,14 @@ body{
 
   .social {
     width: 10%;
+    height: 5%;
     left: 74%;
     top: 84%;
   }
 
   #social_1 {
-    width: 17%;
-    height: 22%;
+    width: 30%;
+    height: 95%;
   }
 
   .exit_bloc {
@@ -564,6 +636,18 @@ body{
     font-size: 385%;
     left: 12.8%;
     top: 2%;
+  }
+
+  .social {
+    width: 10%;
+    height: 5%;
+    left: 74%;
+    top: 84%;
+  }
+
+  #social_1 {
+    width: 30%;
+    height: 95%;
   }
 }
 
@@ -612,14 +696,15 @@ body{
   }
 
   .social {
-    width: 10%;
-    left: 73.5%;
+    width: 20%;
+    height: 5%;
+    left: 75%;
     top: 84%;
   }
 
   #social_1 {
-    width: 18%;
-    height: 22%;
+    width: 14%;
+    height: 95%;
   }
 
   .exit_bloc {
@@ -680,13 +765,14 @@ body{
 
   .social {
     width: 10%;
-    left: 74.5%;
+    height: 5%;
+    left: 74%;
     top: 84%;
   }
 
   #social_1 {
-    width: 17%;
-    height: 22%;
+    width: 30%;
+    height: 95%;
   }
 
   .exit_bloc {
@@ -827,6 +913,73 @@ body{
     width: 10%;
     left: 13.4%;
     top: 82.9%;
+  }
+
+  #exit_bloc_id {
+    width: 18%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1374px) and (max-height: 801px){ 
+  #text_1 {
+    width: 70%;
+    font-size: 360%;
+    left: 12.2%;
+    top: 1%;
+  }
+
+  .text2 {
+    width: 75%;
+    left: 13.6%;
+    top: 25%;
+  }
+
+  #t {
+    font-size: 100%;
+  }
+
+  #t_t.t3 {
+    width: 600px;
+    font-size: 100%;
+    line-height: 120%;
+  } 
+
+  .oll_in_one {
+    width: 40%;
+    left: 39%;
+    top: 47%;
+  }
+
+  .z_1 {
+    font-size: 250%;
+  }
+
+  .z_2 {
+    font-size: 150%;
+    margin: 0 0 0 20px;
+  }
+
+  .z_3 {
+    font-size: 200%;
+    margin: 0 0 0 30px;
+  }
+
+  .social {
+    width: 10%;
+    left: 76%;
+    top: 84.5%;
+  }
+
+  #social_1 {
+    width: 25%;
+    height: 66%;
+  }
+
+  .exit_bloc {
+    width: 10%;
+    left: 13.6%;
+    top: 82.6%;
   }
 
   #exit_bloc_id {
