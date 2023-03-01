@@ -376,8 +376,88 @@ body{
   }
   /*Блок загрузки прелайдер конец*/
 
-
+  /* 1280-1024
+  1280-800 */
   /*Брек поинт*/
+
+
+@media (min-width: 1250px) and (max-width: 1280px){
+    #body1 {
+      background: url(../2.Architects/minbaner800.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../2.Architects/minbaner800.jpg',     sizingMethod='scale');
+      -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../2.Architects/minbaner800.jpg', sizingMethod='scale'); 
+    }
+    
+    #text_1 {
+      width: 70%;
+      font-size: 344%;
+      left: 12.8%;
+      top: 0.3%;
+    }
+  
+    .text2 {
+      width: 75%;
+      left: 14%;
+      top: 20%;
+    }
+  
+    #t {
+      font-size: 105%;
+    }
+  
+    #t_t.t3 {
+      width: 620px;
+      font-size: 105%;
+      line-height: 120%;
+    } 
+  
+    .oll_in_one {
+      width: 40%;
+      left: 45%;
+      top: 42%;
+    }
+  
+    .z_1 {
+      font-size: 270%;
+    }
+  
+    .z_2 {
+      font-size: 140%;
+      margin: 0 0 0 25px;
+    }
+  
+    .z_3 {
+      font-size: 200%;
+      margin: 0 0 0 40px;
+    }
+  
+    .social {
+      width: 10%;
+      height: 5%;
+      left: 75%;
+      top: 85%;
+    }
+  
+    #social_1 {
+      width: 27%;
+      height: 80%;
+    }
+  
+    .exit_bloc {
+      width: 10%;
+      left: 14%;
+      top: 83%;
+    }
+  
+    #exit_bloc_id {
+      width: 18%;
+      height: 100%;
+    } 
+}  
 
 @media (min-width: 1280px) and (max-width: 1360px){
     #body1 {
