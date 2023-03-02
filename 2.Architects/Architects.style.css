@@ -48,6 +48,7 @@ body{
 }
 /*стили для БОДИ конец */
 
+/*контейнер банер*/
 .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -376,11 +377,8 @@ body{
   }
   /*Блок загрузки прелайдер конец*/
 
-  /* 1280-1024
-  1280-800 */
+ 
   /*Брек поинт*/
-
-
 /* @media (min-width: 1279px) and (max-width: 1280px){
     #body1 {
       background: url(../2.Architects/minbaner800.jpg) no-repeat center center fixed;

@@ -1,0 +1,442 @@
+/*стили для БОДИ */
+html, Body {
+  width:100%; height:100%; margin:0;
+
+  font-family: "More is less 22 Displacement";
+  font-family: "Inter";
+  font-family: "WG Patchwork";
+  font-family: "Chakra Petch";
+  font-family: "Libre Barcode 39 Extended Text" Regular;
+  font-family: "Jura" Regular;
+  font-family: "Lucida Sans Unicode";
+  font-family: "Montserrat Alternates"Light;  
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ *,
+ *:before,
+ *:after {
+   box-sizing: border-box;
+ }
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+  }
+/*стили для БОДИ конец */
+  
+/*контейнер*/
+.container {
+  position: relative;
+  max-width: 100%;
+  min-height: auto;
+  margin: 0 auto;
+  background-size: contain;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.img1 { 
+  max-width: 100%;
+  height: auto;
+  max-height:100%;
+  display: flex;
+  justify-content: center;
+}
+/*контейнер*/
+  
+/*заголовок + переход на главный блок*/
+.oll_in_one {
+  position: absolute;
+  width: 240px;
+  height: 70px;
+  left: 80px;
+  top: 30px;
+}
+
+.text_1 {
+  width: 70px;
+  left: 5px;
+  top: 10px;
+  position: relative;
+  font-family: 'More is less 22 Displacement';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 63px;
+  color: #000000;
+  text-shadow: 3px 2px 30px #FFFFFF;
+}
+.text_1 {
+  transition: 1s; /* Время эффекта */
+}
+.text_1:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+
+.text_2 {
+  width: 22px;
+  left: 100px;
+  bottom: 50px;
+  position: relative;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-shadow: 2px 5px 3px #233334;
+}
+.text_2 {
+  transition: 1s; /* Время эффекта */
+}
+.text_2:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+
+.text_3 {
+  width: 90px;
+  left: 135px;
+  bottom: 75px;
+  position: relative;
+  font-family: 'WG Patchwork';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+.text_3 {
+  transition: 1s; /* Время эффекта */
+}
+.text_3:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+/*заголовок + переход на главный блок конец*/
+
+/*Блок текста*/
+.text {
+  position: absolute;
+  width: 440px;
+  height: 250px;
+  left: 85px;
+  top: 115px;
+}
+
+.t1 {
+  position: relative;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.t2 {
+  position: relative;
+  top: 15px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.t3 {
+  position: relative;
+  top: 30px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.t4 {
+  position: relative;
+  top: 45px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;  
+}
+/*Блок текста*/  
+
+/*другие элементы,штрих код,полоса,текст */
+.bloc_weare {
+  position: absolute;
+  width: 306px;
+  height: 110px;
+  left: 77.8%;
+  top: 41px;
+}
+
+.polosa {
+  position: relative;
+  width: 306px;
+  height: 25px;
+  background: #000000;
+  transform: translateX(150%);
+  animation: ani 2s forwards;
+}
+@keyframes ani {
+  0% {transform: translateX(150%);}
+  100% {transform: translateY(0);}
+}
+
+.recommended {
+  position: relative;
+  bottom: 32px;
+  left: 7px;
+  white-space: nowrap;
+  font-family: 'Lucida Sans Unicode';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  transform: translateX(150%);
+  animation: ani 7s forwards;
+} 
+@keyframes ani {
+  0% {transform: translateX(150%);}
+  100% {transform: translateY(0);}
+}
+
+.Weare {
+  position: relative;
+  bottom: 20px;
+  white-space: nowrap;
+  font-family: 'Libre Barcode 39 Extended Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+  transform: translateX(150%);
+  animation: ani 7s forwards;
+}
+@keyframes ani {
+  0% {transform: translateX(150%);}
+  100% {transform: translateY(0);}
+}
+/*другие элементы,штрих код,полоса,текст */
+
+
+
+/*соцсети */
+.social {
+  position: absolute;
+  width: 150px;
+  height: 130px;
+  left: 19%;
+  top: 58%;
+}
+
+#social_bloc {
+  width: 46px;
+  height: 46.64px;
+}
+
+.telegram {
+  position: relative;
+  width: 39px;
+  height: 41.64px;
+  top: 5px;
+  left: 50px;
+  filter: drop-shadow(0px 4px 4px #233334);
+  transform: rotate(1.71deg);
+}
+.telegram {
+  transition: 0.5s; /* Время эффекта */
+}
+.telegram:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+
+.whatsapp {
+  position: relative;
+  top: 40px;
+  right: 15px;
+  filter: drop-shadow(0px 4px 4px #233334);
+  transform: rotate(24.36deg);
+}
+.whatsapp {
+  transition: 0.5s; /* Время эффекта */ 
+}
+.whatsapp:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+
+.instagram {
+  position: relative;
+  top: 75px;
+  right: 85px;
+  filter: drop-shadow(0px 4px 4px #233334);
+  transform: rotate(-10.88deg);
+}
+.instagram {
+  transition: 0.5s; /* Время эффекта */ 
+}
+.instagram:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+/*соцсети конец*/
+
+
+/*меню*/
+.nav {
+  position: absolute;
+  width: 138px;
+  height: 60px;
+  right: 162px;
+  top: 252px; 
+}
+
+.menu_1 {
+  position: relative;
+  text-decoration: none;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  text-shadow: 0px 7px 5px #000000;
+}
+a.menu_1{
+  color: #ffffff; /* Цвет текста */
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease; 
+}
+a.menu_1:hover{
+  color: #000000; /* Меняем цвет текста */
+}
+
+.menu_2 {
+  position: relative;
+  text-decoration: none;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.4em;
+  color: #FFFFFF;
+  text-shadow: 0px 7px 7px #000000;
+}
+a.menu_2{
+  color: #ffffff; /* Цвет текста */
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease; 
+}
+a.menu_2:hover{
+  color: #000000; /* Меняем цвет текста */
+}
+/*меню*/
+
+
+/*Блок загрузки прелайдер */
+.preloader {
+  /*фиксированное позиционирование*/
+  position: fixed;
+  /* координаты положения */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* фоновый цвет элемента */
+  background: #e0e0e0;
+  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 1s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 1s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: 8s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 6.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+/*Блок загрузки прелайдер конец*/
+
+
+
+/*Брек поинт*/
+/* @media (min-width: 1280px) and (max-width: 1360px){
+
+} */
+
+ 
+
