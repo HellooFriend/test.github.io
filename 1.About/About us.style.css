@@ -1,5 +1,7 @@
 /*стили для БОДИ */
 html, Body {
+  background: url(../1.About/2b.png) no-repeat center;
+  background-size: cover;
   width:100%; height:100%; margin:0;
 
   font-family: "More is less 22 Displacement";
@@ -42,23 +44,25 @@ h6 {
 /*стили для БОДИ конец */
   
 /*контейнер*/
-.container {
-  position: relative;
-  max-width: 100%;
-  min-height: auto;
-  margin: 0 auto;
-  background-size: contain;
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
   max-height: 100%;
   overflow: hidden;
+  margin: 0 auto;
+  padding: 0 0 0 0px;
+  bottom: 0 0 0 0px;
 }
 
-.img1 { 
+/*контейнер*/
+.container {
   max-width: 100%;
   height: auto;
-  max-height:100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
 /*контейнер*/
   
 /*заголовок + переход на главный блок*/
@@ -67,7 +71,7 @@ h6 {
   width: 240px;
   height: 70px;
   left: 80px;
-  top: 30px;
+  top: 50px;
 }
 
 .text_1 {
@@ -188,13 +192,13 @@ h6 {
   position: absolute;
   width: 306px;
   height: 110px;
-  left: 77.8%;
+  left: 72.8%;
   top: 41px;
 }
 
 .polosa {
   position: relative;
-  width: 306px;
+  width: 350px;
   height: 25px;
   background: #000000;
   transform: translateX(150%);
@@ -252,7 +256,7 @@ h6 {
   width: 150px;
   height: 130px;
   left: 19%;
-  top: 58%;
+  top: 60%;
 }
 
 #social_bloc {
@@ -311,7 +315,7 @@ h6 {
   position: absolute;
   width: 138px;
   height: 60px;
-  right: 162px;
+  right: 160px;
   top: 252px; 
 }
 
@@ -433,10 +437,13 @@ a.menu_2:hover{
 
 
 
-/*Брек поинт*/
-/* @media (min-width: 1280px) and (max-width: 1360px){
+/* Брек поинт */
+/* @media (min-width: 1280px) and (max-width: 1410px){
+  
 
+  
 } */
+
 
  
 
