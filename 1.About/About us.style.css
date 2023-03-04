@@ -191,16 +191,15 @@ h6 {
 /*другие элементы,штрих код,полоса,текст */
 .bloc_weare {
   position: absolute;
-  width: 306px;
+  width: 310px;
   height: 110px;
-  left: 74.9%;
-  top: 41px;
-  
+  left: 73.9%;
+  top: 50px;
 }
 
 .polosa {
   position: relative;
-  width: 350px;
+  width: 310px;
   height: 25px;
   background: #000000;
   transform: translateX(150%);
@@ -214,8 +213,9 @@ h6 {
 
 .recommended {
   position: relative;
+  width: 260px;
   bottom: 32px;
-  left: 7px;
+ margin-left: 7.4px;
   white-space: nowrap;
   font-family: 'Lucida Sans Unicode';
   font-style: normal;
@@ -226,6 +226,7 @@ h6 {
   color: #FFFFFF;
   transform: translateX(150%);
   animation: ani 7s forwards;
+  
 } 
 @keyframes ani {
   0% {transform: translateX(150%);}
@@ -443,7 +444,7 @@ display: none;
 /* Брек поинт */
 
 
-@media (min-width: 1024px) and (max-width: 1280px){
+@media (min-width: 1024px) and (max-width: 1270px){
 .Body {
   background: url(../1.About/1024-768.png) no-repeat center;
   background-size: cover;
@@ -452,11 +453,10 @@ display: none;
 
 .bloc_weare {
   position: absolute;
-  width: 306px;
+  width: 310px;
   height: 110px;
-  left: 66.2%;
+  left: 72.7%;
   top: 5px;
-  overflow: hidden;
 }
 
 .social {
@@ -496,63 +496,57 @@ display: none;
 }
 }
 
-@media (min-width: 1280px) and (max-width: 1366px){
+/* @media (min-width: 1270px) and (max-width: 1366px){
 .Body {
   background: url(../1.About/2848-1600.png) no-repeat center;
   background-size: cover;
   } 
-  /* .bloc_weare {
+
+  .bloc_weare {
     position: absolute;
     width: 306px;
     height: 110px;
-    left: 75.6%;
-    top: 41px;
-  } */
-
-  /* .social {
+    left: 66.2%;
+    top: 5px;
+  }
+  
+  .social {
     position: absolute;
     width: 150px;
     height: 130px;
     left: 8%;
     top: 59%;
-  } */
-
-  /* .nav {
+  }
+  
+  .nav {
     position: absolute;
     width: 138px;
     height: 60px;
-    right: 55px;
+    right: 69px;
     top: 252px; 
-  } */
-
-  /* .bloc_weare {
-    position: absolute;
-    width: 306px;
-    height: 110px;
-    left: 67.9%;
-    top: 5px;
-  } */
-/*   
+  }
+  
   .oll_in_one {
     position: absolute;
     width: 240px;
     height: 70px;
-    left: 16px;
+    left: 15px;
     top: 35px;
-  } */
-
-  /* .text {
+  }
+  
+  .text {
     position: absolute;
     width: 440px;
     height: 250px;
     left: 20px;
     top: 110px;
-  } */
-
-  /* #t {
+  }
+  
+  #t {
     font-size: 80%;
-  } */
-}
+  }
+
+} */
 
 @media (min-width: 1366px) and (max-width: 1440px){
   /* .bloc_weare {
