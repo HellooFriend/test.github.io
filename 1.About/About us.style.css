@@ -61,6 +61,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 /*контейнер*/
@@ -194,6 +195,7 @@ h6 {
   height: 110px;
   left: 74.9%;
   top: 41px;
+  
 }
 
 .polosa {
@@ -203,6 +205,7 @@ h6 {
   background: #000000;
   transform: translateX(150%);
   animation: ani 2s forwards;
+  
 }
 @keyframes ani {
   0% {transform: translateX(150%);}
@@ -444,14 +447,16 @@ display: none;
 .Body {
   background: url(../1.About/1024-768.png) no-repeat center;
   background-size: cover;
+  overflow: hidden;
 } 
 
 .bloc_weare {
   position: absolute;
   width: 306px;
   height: 110px;
-  left: 75.6%;
-  top: 41px;
+  left: 66.2%;
+  top: 5px;
+  overflow: hidden;
 }
 
 .social {
@@ -466,23 +471,15 @@ display: none;
   position: absolute;
   width: 138px;
   height: 60px;
-  right: 55px;
+  right: 69px;
   top: 252px; 
-}
-
-.bloc_weare {
-  position: absolute;
-  width: 306px;
-  height: 110px;
-  left: 67.9%;
-  top: 5px;
 }
 
 .oll_in_one {
   position: absolute;
   width: 240px;
   height: 70px;
-  left: 16px;
+  left: 15px;
   top: 35px;
 }
 
