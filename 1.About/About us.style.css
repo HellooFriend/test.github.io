@@ -41,6 +41,16 @@ h5,
 h6 {
     
   }
+/* 
+  body{
+    background: url(../1.About/2848-1600.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../1.About/2848-1600.png',     sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../1.About/2848-1600.png', sizingMethod='scale');
+  } */
 /*стили для БОДИ конец */
   
 /*контейнер*/
@@ -191,7 +201,7 @@ h6 {
 /*другие элементы,штрих код,полоса,текст */
 .bloc_weare {
   position: absolute;
-  width: 310px;
+  width: 295px;
   height: 110px;
   left: 73.9%;
   top: 50px;
@@ -199,7 +209,7 @@ h6 {
 
 .polosa {
   position: relative;
-  width: 310px;
+  width: 295px;
   height: 25px;
   background: #000000;
   transform: translateX(150%);
@@ -215,14 +225,14 @@ h6 {
   position: relative;
   width: 260px;
   bottom: 32px;
- margin-left: 7.4px;
+  margin-left: 7.4px;
   white-space: nowrap;
   font-family: 'Lucida Sans Unicode';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 23px;
-  letter-spacing: 0.1em;
+  letter-spacing: 2.5px;
   color: #FFFFFF;
   transform: translateX(150%);
   animation: ani 7s forwards;
@@ -453,9 +463,9 @@ display: none;
 
 .bloc_weare {
   position: absolute;
-  width: 310px;
+  width: 295px;
   height: 110px;
-  left: 72.4%;
+  left: 70%;
   top: 5px;
 }
 
@@ -471,7 +481,7 @@ display: none;
   position: absolute;
   width: 138px;
   height: 60px;
-  right: 10px;
+  right: 30px;
   top: 252px; 
 }
 
@@ -559,11 +569,11 @@ display: none;
 } */
 
 
-
+ 
 @media (min-width: 1374px) and (max-height: 801px){
   .bloc_weare {
     position: absolute;
-    width: 310px;
+    width: 295px;
     height: 110px;
     left: 77.5%;
     top: 41px;
@@ -580,7 +590,7 @@ display: none;
 @media (min-width: 1384px) and (max-height: 799px){
   .bloc_weare {
     position: absolute;
-    width: 310px;
+    width: 295px;
     height: 110px;
     left: 77.5%;
     top: 41px;
@@ -597,7 +607,7 @@ display: none;
 @media (min-width: 1422px) and (max-height: 829px){
   .bloc_weare {
     position: absolute;
-    width: 310px;
+    width: 295px;
     height: 110px;
     left: 78.3%;
     top: 41px;
@@ -610,7 +620,7 @@ display: none;
     right: 11.3%;
     top: 252px; 
   }
-}
+} 
 
 
 
