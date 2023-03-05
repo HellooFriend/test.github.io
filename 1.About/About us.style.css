@@ -440,8 +440,6 @@ display: none;
 
 
 /* Брек поинт */
-
-
 @media (min-width: 1024px) and (max-width: 1270px){
 .Body {
   background: url(../1.About/1024-768.png) no-repeat center;
@@ -1195,73 +1193,3 @@ display: none;
 
 
 
-@media (min-width: 1280px) and (max-height: 1024px){
-.Body {
-  background: url(../1.About/1280-1024.png) no-repeat center;
-  background-size: cover;
-} 
-
-.bloc_weare {
-  position: absolute;
-  width: 295px;
-  height: 110px;
-  left: 76.7%;
-  top: 60px;
-}
-
-.social {
-  position: absolute;
-  width: 150px;
-  height: 130px;
-  left: 5%;
-  top: 60%;
-}
-
-#social_bloc1 {
-  width: 50px;
-  height: 48.64px;
-  left: 68px;
-}
-#social_bloc2 {
-  width: 57px;
-  height: 57.64px;
-  top: 45px;
-  right: 15px;
-}
-#social_bloc3 {
-  width: 57px;
-  height: 57.64px;
-  top: 20px;
-  left: 15px;
-}
-
-.nav {
-  position: absolute;
-  width: 138px;
-  height: 60px;
-  right: 1.5%;
-  top: 285px; 
-}
-
-.oll_in_one {
-  position: absolute;
-  width: 300px;
-  height: 70px;
-  left: 58px;
-  top: 60px;
-  
-}
-
-.text {
-  position: absolute;
-  width: 370px;
-  height: 250px;
-  left: 60px;
-  top: 140px;
-}
-
-#t {
-  margin-top: 10px;
-  line-height: 15px;
-}
-} 
