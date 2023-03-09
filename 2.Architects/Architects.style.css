@@ -39,7 +39,7 @@ body{
 }
 /*стили для БОДИ конец */
 
-/*контейнер банер*/
+/*контейнер*/
 .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -50,7 +50,6 @@ body{
   bottom: 0 0 0 0px;
 }
 
-/*контейнер*/
 .container {
   max-width: 100%;
   height: auto;

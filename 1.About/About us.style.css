@@ -32,18 +32,6 @@ a {
   text-decoration: none;
   outline: none;
 }
-
-
-/* 
-  body{
-    background: url(../1.About/2848-1600.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../1.About/2848-1600.png',     sizingMethod='scale');
-    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../1.About/2848-1600.png', sizingMethod='scale');
-  } */
 /*стили для БОДИ конец */
   
 /*контейнер*/
@@ -57,7 +45,6 @@ a {
   bottom: 0 0 0 0px;
 }
 
-/*контейнер*/
 .container {
   max-width: 100%;
   height: auto;
