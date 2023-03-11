@@ -1,0 +1,1081 @@
+
+html, body{
+  width:100%; height:100%; margin:0;
+    
+  background: #ffffff;
+
+  font-family: "More is less 22 Displacement";
+  font-family: "Inter";
+  font-family: "WG Patchwork";
+  font-family: "Chakra Petch";
+  font-family: "MACCOS DOUBLE Demo";
+  font-family: "TRASHED";
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+*,
+ *:before,
+ *:after {
+   box-sizing: border-box;
+ }
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+  }
+/*стили для БОДИ конец */
+
+
+/* _____________________________________________ */
+/* 
+.wrapper .cloud  {
+  filter: blur(5px); 
+ transition: 1s; 
+} */
+
+/* .wrapper:hover   {
+  filter: blur(0); /* Отменяем размытие
+
+
+/* .container {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+} */
+
+/* .container:hover  {
+  -webkit-filter: grayscale(0);
+   filter: grayscale(0);
+}  */
+
+
+
+
+.cloud {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  left: 113px;
+  top: 240px;
+
+  background: url(download-black-cloud-interface-symbol-with-down-arrow-inside_icon-icons.png);
+  filter: drop-shadow(0px 4px 20px #FFFFFF);
+}
+
+.cloud {
+  transition: 0.5s; /* Время эффекта */
+  text-align: center; 
+
+}
+.cloud:hover {
+  transform: scale(1.8); /* Увеличиваем масштаб */
+}
+
+/* @media (hover: hover) {
+  #wrapper {
+    filter: blur(10);
+  }
+} */
+
+
+/* 
+.cloud wrapper:hover  {
+  filter: blur(10);
+} */
+
+
+/* 
+#container #cloud1:hover  {
+  filter: blur(5px); 
+ 
+} */
+/* _____________________________________________ */
+
+
+
+/*контейнер*/
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+    
+  position: relative;
+  max-width: 100%;
+  min-height: auto;
+  margin: 0 auto;
+  background-size: contain;
+}
+
+.img1 { 
+  max-width: 100%;
+  height: auto;
+  max-height:100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*Стили текстов*/
+.text_1 {
+  position: absolute;
+  left: 231px;
+  top: 100px;
+    
+  font-family: 'More is less 22 Displacement';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 63px;
+  text-align: center;
+    
+  color: #000000;
+    
+  text-shadow: 3px 2px 30px #FFFFFF;
+}
+
+.text_1 {
+  transition: 1s; /* Время эффекта */
+  text-align: center; 
+}
+.text_1:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+
+.text_2 {
+  position: absolute;
+  left: 319px;
+  top: 115px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+.text_2 {
+  transition: 1s; /* Время эффекта */
+  text-align: center; 
+}
+.text_2:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+
+.text_3 {
+  position: absolute;
+
+  left: 353px;
+  top: 110px;
+
+  font-family: 'WG Patchwork';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #000000;
+
+  text-shadow: 3px 2px 20px #FFFFFF;
+}
+
+.text_3 {
+  transition: 1s; /* Время эффекта */
+  text-align: center; 
+}
+.text_3:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+
+.text_4 {
+  position: absolute;
+  left: 458px;
+  top: 120px;
+    
+  font-family: 'TRASHED';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+    
+  text-align: center;
+  letter-spacing: 0.25em;
+    
+  color: #000000;
+ }
+
+ .text_4 {
+  transition: 1s; /* Время эффекта */
+  text-align: center; 
+}
+.text_4:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+/*Стили текстов конец*/
+
+
+/*соцсети */
+.telegram {
+  position: absolute;
+  width: 78px;
+  height: 76.64px;
+  left: 127px;
+  top: 90px;
+  
+  background: url(main/telegram.svg;);
+  filter: drop-shadow(0px 4px 10px #FFFFFF);
+  transform: rotate(-4.28deg);
+}
+
+.telegram {
+  transition: 0.5s; /* Время эффекта */
+  text-align: center; 
+}
+.telegram:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.whatsapp {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 123px;
+  top: 135px;
+
+  background: url(/Main/whatsapp.svg)
+  filter: drop-shadow(0px 4px 10px #FFFFFF);
+}
+
+.whatsapp {
+  transition: 0.5s; /* Время эффекта */
+  text-align: center; 
+}
+.whatsapp:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.instagram {
+  position: absolute;
+  width: 81px;
+  height: 81px;
+  left: 127px;
+  top: 175px;
+  
+  background: url(353424-instagram-logo_107474.png);
+  filter: drop-shadow(0px 4px 20px #FFFFFF);
+  transform: rotate(-15.37deg);
+}
+
+.instagram {
+  transition: 0.5s; /* Время эффекта */
+  text-align: center; 
+}
+.instagram:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*соцсети */
+
+
+/*другие элементы,штрих код,полоса,текст */
+.polosa {
+  position: absolute;
+  width: 250px;
+  height: 38px;
+  left: 0px;
+  top: 610px;
+
+  transform: translateX(-150%);
+  animation: ani 2s forwards;
+}
+
+@keyframes ani {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
+
+.weare {
+  position: absolute;
+  left: 35px;
+  top: 630px;
+
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 2.2em;
+
+  color: #FFFFFF;
+
+  transform: translateX(-150%);
+  animation: ani 7s forwards;
+}
+
+@keyframes ani {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
+
+.cod {
+  position: absolute;
+  width: 225px;
+  height: 22px;
+  left: 22px;
+  top: 610px;
+
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 2.3em;
+
+  color: #FFFFFF;
+
+  transform: translateX(-150%);
+  animation: ani 6s forwards;
+}
+
+@keyframes ani {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
+/*другие элементы,штрих код,полоса,текст.КОНЕЦ*/
+
+
+/*Блок WORKS*/
+.WORKS {
+  position: absolute;
+  left: 800px;
+  top: 260px;
+ 
+
+  font-family: 'MACCOS DOUBLE Demo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+
+  color: #FFFFFF;
+
+  text-shadow: 2px 6px 4px rgba(255, 255, 255, 0.4);
+  transform: matrix(1, 0.33, 0.02, 0.96, 0, 0);
+}
+
+/*АНИМАЦИЯ МИРЦАНИЯ WORKS*/
+.w {
+  color: #fff;
+  text-shadow:
+  /* White glow */
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  /* Green glow */
+  0 0 42px #EDD394,
+  0 0 82px #EDD394,
+  0 0 92px #EDD394,
+  0 0 102px #EDD394,
+  0 0 151px #EDD394;
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  text-shadow:
+  0 0 4px #fff,
+  0 0 11px #fff,
+  0 0 19px #fff,
+  0 0 40px #775b18,
+  0 0 80px #9b7d38,
+  0 0 90px #EDD394,
+  0 0 100px #f7b825,
+  0 0 111px #EDD394;
+  }
+  20%, 24%, 55% {       
+  text-shadow: none;
+  }
+}
+
+.w {
+  animation: flicker 1.3s infinite alternate;
+  color: rgb(255, 255, 255);
+}
+/*АНИМАЦИЯ МИРЦАНИЯ WORKS КОНЕЦ*/
+
+/*Блок загрузки прелайдер */
+.preloader {
+  /*фиксированное позиционирование*/
+  position: fixed;
+  /* координаты положения */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* фоновый цвет элемента */
+  background: #e0e0e0;
+  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 1s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 1s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: 8s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 6.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+/*Блок загрузки прелайдер конец*/
+
+
+
+/*Брек поинт*/
+
+/* 1024-1280 */
+@media (min-width: 1020px) and (max-width: 1280px){ 
+  #wrapper {
+    margin: 90px 10px 0px 10px;
+    }
+  
+  #t1 {
+    width: 6%;
+    font-size: 265%;
+    left: 16%;
+    top:10%;
+    }
+
+  #t2 {
+    width: 2%;
+    font-size: 180%;
+    left: 23%;
+    top: 12%;
+    }
+
+  #t3 {
+    width: 9%;
+    font-size: 230%;
+    left: 26%;
+    top: 12%;
+    }
+
+  #t4 {
+    width: 23%;
+    font-size: 142%;
+    left: 36%;
+    top: 13.4%;
+    }    
+
+  #t5 {
+    width: 65%;
+    font-size: 108%;
+    left: 15%;
+    top: 13.4%;
+    }  
+
+  #w {
+    width: 10%;
+    font-size: 176%;
+    left: 56.5%;
+    top: 30%;
+    }    
+  
+  #polosa1{
+    width: 18%;
+    left: 0%;
+    top: 79%;
+    }        
+
+  #cod1 {
+    width: 16%;
+    left: 2%;
+    top: 79%;
+    }  
+
+  #wearw1 {
+    width: 30%;
+    font-size: 67%;
+    left: 3%;
+    top: 82%;
+    }  
+
+  #cloud1 {
+    
+    width: 6%;
+    left: 8%;
+    top: 24%;
+    }  
+
+  #telegram1 {
+    width: 6%;
+    left: 8%;
+    top: 9%;
+    }  
+
+  #whatsapp1 {
+    width: 5%;
+    left:8%;
+    top: 14%;
+    }  
+
+  #instagram1 {
+    width: 6%;
+    left: 8%;
+    top: 18%;
+    }  
+}
+
+
+  /* 1280-1366 */
+@media (min-width: 1277px) and (max-width: 1366px){ 
+#t1 {
+    width: 6%;
+    font-size: 290%;
+    left: 15%;
+    top:11%;
+    }
+
+  #t2 {
+    width: 2%;
+    font-size: 200%;
+    left: 21.2%;
+    top: 12.5%;
+    }
+
+  #t3 {
+    width: 9%;
+    font-size: 260%;
+    left: 23.3%;
+    top: 12.5%;
+    }
+
+  #t4 {
+    width: 25%;
+    font-size: 205%;
+    left: 33%;
+    top: 13.4%;
+    }    
+
+  #t5 {
+    width: 65%;
+    font-size: 90%;
+    left: 15%;
+    top: 13.4%;
+    }  
+
+  #w {
+    width: 10%;
+    font-size: 220%;
+    left: 56.5%;
+    top: 30%;
+    }    
+  
+  #polosa1{
+    width: 18%;
+    left: 0%;
+    top: 76.4%;
+    }        
+
+  #cod1 {
+    width: 16%;
+    left: 2%;
+    top: 76.4%;
+    }  
+
+  #wearw1 {
+    width: 30%;
+    font-size: 67%;
+    left: 6%;
+    top: 79%;
+    }  
+
+  #cloud1 {
+    width: 6%;
+    left: 7.5%;
+    top: 26%;
+    }  
+
+  #telegram1 {
+    width: 6%;
+    left: 8%;
+    top: 10%;
+    }  
+
+  #whatsapp1 {
+    width: 5%;
+    left:8%;
+    top: 15%;
+    }  
+
+  #instagram1 {
+    width: 6%;
+    left: 8%;
+    top: 19%;
+    }  
+}
+
+
+  /* 1366-1440 ОСНОВНОЙ СТИЛЬ  */
+@media (min-width: 1360px) and (max-width: 1440px){}
+
+
+  /* 1440-1536 */
+@media (min-width: 1438px) and (max-width: 1536px){ 
+#t1 {
+  width: 7%;
+  font-size: 360%;
+  left: 15%;
+  top: 11.5%;
+  }
+
+#t2 {
+  width: 2%;
+  font-size: 240%;
+  left: 22.3%;
+  top: 13%;
+  }
+
+#t3 {
+  width: 9%;
+  font-size: 310%;
+  left: 25%;
+  top: 12.9%;
+  }
+
+#t4 {
+  width: 25%;
+  font-size: 210%;
+  left: 34%;
+  top: 14.4%;
+  }    
+
+#t5 {
+  width: 65%;
+  font-size: 100%;
+  left: 15%;
+  top: 13.4%;
+  }  
+
+#w {
+  width: 10%;
+  font-size: 220%;
+  left: 56.5%;
+  top: 30%;
+  }    
+
+#polosa1{
+  width: 18.3%;
+  left: 0%;
+  top: 80%;
+  }        
+
+#cod1 {
+  width: 16%;
+  left: 2%;
+  top: 80%;
+  }  
+
+#wearw1 {
+  width: 30%;
+  font-size: 67%;
+  left: 7.4%;
+  top: 82.2%;
+  }  
+
+#cloud1 {
+  width: 6%;
+  left: 7.5%;
+  top: 26%;
+  }  
+
+#telegram1 {
+  width: 6%;
+  left: 7.8%;
+  top: 11%;
+  }  
+
+#whatsapp1 {
+  width: 5%;
+  left: 7.6%;
+  top: 16%;
+  }  
+
+#instagram1 {
+  width: 6%;
+  left: 7.8%;
+  top: 20%;
+  }  
+}
+
+  /* 1536-1920 */
+@media (min-width: 1534px) and (max-width: 1920px){ 
+#t1 {
+  width: 6%;
+  font-size: 375%;
+  left: 16%;
+  top: 11.8%;
+  }
+
+#t2 {
+  width: 2%;
+  font-size: 255%;
+  left: 23%;
+  top: 13%;
+  }
+
+#t3 {
+  width: 9%;
+  font-size: 325%;
+  left: 25.3%;
+  top: 12.9%;
+  }
+
+#t4 {
+  width: 24%;
+  font-size: 225%;
+  left: 35%;
+  top: 14.4%;
+  }    
+
+#t5 {
+  width: 65%;
+  font-size: 105%;
+  left: 15%;
+  top: 13.4%;
+  }  
+
+#w {
+  width: 10%;
+  font-size: 255%;
+  left: 56.8%;
+  top: 32%;
+  }    
+
+#polosa1{
+  width: 18.8%;
+  left: 0%;
+  top: 80%;
+  }        
+
+#cod1 {
+  width: 16.7%;
+  left: 2%;
+  top: 80.2%;
+  }  
+
+#wearw1 {
+  width: 20%;
+  font-size: 90%;
+  left: 5.5%;
+  top: 82.1%;
+  }  
+
+#cloud1 {
+  width: 12%;
+  left: 4.5%;
+  top: 27%;
+  }  
+
+#telegram1 {
+  width: 6%;
+  left: 7.8%;
+  top: 12%;
+  }  
+
+#whatsapp1 {
+  width: 5%;
+  left: 7.6%;
+  top: 17%;
+  }  
+
+#instagram1 {
+  width: 6%;
+  left: 7.8%;
+  top: 21%;
+  }  
+}
+
+/* 1920 - цент блок с отступами  */
+@media (min-width: 1918px) and (max-width: 1985px){ 
+#t1 {
+  width: 8%;
+  font-size: 500%;
+  left: 15%;
+  top: 12.6%;
+  }
+
+#t2 {
+  width: 2%;
+  font-size: 360%;
+  left: 23%;
+  top: 14%;
+  }
+
+#t3 {
+  width: 9%;
+  font-size: 420%;
+  left: 26%;
+  top: 13.5%;
+  }
+
+#t4 {
+  width: 24%;
+  font-size: 275%;
+  left: 35.3%;
+  top: 14.4%;
+  }    
+
+#t5 {
+  width: 65%;
+  font-size: 105%;
+  left: 15%;
+  top: 13.4%;
+  }  
+
+#w {
+  width: 10%;
+  font-size: 350%;
+  left: 56%;
+  top: 32%;
+  }    
+
+#polosa1{
+  width: 17%;
+  left: 0%;
+  top: 79%;
+  }        
+
+#cod1 {
+  width: 15%;
+  left: 2%;
+  top: 79.1%;
+  }  
+
+#wearw1 {
+  width: 21%;
+  font-size: 90%;
+  left: 6.2%;
+  top: 80.7%;
+  }  
+
+#cloud1 {
+  width: 9%;
+  height: 9%;
+  left: 6%;
+  top: 27%;
+  }  
+
+#telegram1 {
+  width: 9%;
+  height: 9%;
+  left: 6.8%;
+  top: 11%;
+  }  
+
+#whatsapp1 {
+  width: 8%;
+  height: 8%;
+  left: 6.8%;
+  top: 16%;
+  }  
+
+#instagram1 {
+  width: 9.4%;
+  height: 9.4%;
+  left: 7.4%;
+  top: 20.4%;
+  }  
+}
+
+@media  (min-width: 1986px) and (max-width: 2560px){
+#t1 {
+  width: 8%;
+  height: 5%;
+  font-size: 750%;
+  left: 15.3%;
+  top: 13%;
+  }
+
+#t2 {
+  width: 2%;
+  height: 3%;
+  font-size: 450%;
+  left: 24%;
+  top: 14%;
+  }
+
+#t3 {
+  width: 9%;
+  height: 4%;
+  font-size: 550%;
+  left: 26.6%;
+  top: 14%;
+  }
+
+#t4 {
+  width: 24%;
+  height: 3%;
+  font-size: 355%;
+  left: 35.4%;
+  top: 15.1%;
+  }    
+
+#t5 {
+  width: 65%;
+  font-size: 105%;
+  left: 15%;
+  top: 13.4%;
+  }  
+
+#w {
+  width: 10%;
+  font-size: 470%;
+  left: 56%;
+  top: 33%;
+  }    
+
+#polosa1{
+  width: 18.5%;
+  height: 5%;
+  left: 0%;
+  top: 79.5%;
+  }        
+
+#cod1 {
+  width: 16.6%;
+  height: 2.7%;
+  left: 2%;
+  top: 79.7%;
+  }  
+
+#wearw1 {
+  width: 24%;
+  font-size: 180%;
+  left: 2.6%;
+  top: 82.7%;
+  }  
+
+#cloud1 {
+  width: 9%;
+  height: 9%;
+  left: 6%;
+  top: 27%;
+  }  
+
+#telegram1 {
+  width: 9%;
+  height: 9%;
+  left: 6.8%;
+  top: 11%;
+  }  
+
+#whatsapp1 {
+  width: 8%;
+  height: 8%;
+  left: 6.8%;
+  top: 16%;
+  }  
+
+#instagram1 {
+  width: 9.4%;
+  height: 9.4%;
+  left: 7.4%;
+  top: 20.4%;
+  }    
+}
+
+
+/* 1366-1445  ПРОМЕЖУТОЧНЫЙ*/
+@media (min-width: 1364px) and (max-width: 1445px){ 
+#w {
+  width: 10%;
+  font-size: 230%;
+  left: 57%;
+  top: 30%;
+  }   
+}
+
