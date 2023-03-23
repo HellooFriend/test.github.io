@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="Main/Favicon2.ico" type="Favicon2.ico"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Строчка, которая делает магию-->
     <title>ALL IN ONE Technologies</title>
 
 
@@ -61,45 +61,58 @@
     <!--КОНЕЦ ТЕГА-->
 
     
-<body><!--Тело-->
-    <div id="wrapper" class="wrapper">
-        <div id="container" class="container"><!--Контейнер-->
-            <div class="preloader"><!--preloader-->
-                <div class="preloader__row">
-                <div class="preloader__item"></div>
-                <div class="preloader__item"></div>
-                </div>
+<body id="body1"><!--Тело-->
+
+    <div class="container" id="container1"><!--Контейнер-->
+        <div class="preloader"><!--preloader-->
+            <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
             </div>
-         
-            <img  class="img1" src="./Main/1.png" alt="" ><!--банер-->
-        
-            <img onClick="Input()" class="cloud" id="cloud1" src="Main/cloud.svg" >
-       
-            <a href="5.Plug/index.html"><!--заголовок-->
-                <h2 id="t1" class="text_1">A<span style="color: rgb(255, 255, 255)">L</span>L</h2>
-                <h2 id="t2" class="text_2">in</h2>
-                <h2 id="t3" class="text_3">ONE</h2>
-                <h2 id="t4" class="text_4">Te<span style="color: rgb(255, 255, 255)">ch</span>no<span id="t5" style="color: rgba(35, 51, 52, 1)">logie</span>s</h2>
-            </a>  
-        
-            <!--соцсети-->
-            <a  href="http://t.me/allone_tech"> <img class="telegram" id="telegram1" src="Main/telegram.svg"></a>
-            <a  href="https://wa.me/+79258591414"> <img class="whatsapp" id="whatsapp1" src="Main/whatsapp.svg"></a>
-            <a  href="5.Plug/index.html"> <img class="instagram" id="instagram1" src="Main/instagram.svg"></a>
-   
-            <a href="1.About/index.html"><!--переход в блок О НАС-we are-->
-                <img id="polosa1" class="polosa" src="Main/серая полоса.png">
-                <img id="cod1" class="cod" src="Main/Штрих-код.png">
-                <p id="wearw1" class="weare"> we are </p>
-            </a>
-       
-            <a href="3.WORKS/index.html"><!--переход в блок РАБОТЫ-WORKS-->
-                <p class="WORKS" id="w">WO<span class="w" id="" style="color: #f0d16b">R</span>KS</p>
-            </a>
-        
-        </div>  
         </div>
-    </div>
+
+        <section class="section1" >
+            <div class="cloud_click">
+                <img onClick="Input()" class="cloud" id="cloud1" src="Main/cloud.svg" >
+            </div>
+
+            <div class="imgs">
+                <img class="img1" src="../ALL IN ONE Technologies/Main/img/1384-799.png">
+            </div>
+
+            <div class="logo"><!--заголовок-->
+                <a href="5.Plug/index.html">
+                    <h2 id="t1" class="text_1">A<span style="color: rgb(255, 255, 255)">L</span>L</h2>
+                    <h2 id="t2" class="text_2">in</h2>
+                    <h2 id="t3" class="text_3">ONE</h2>
+                    <h2 id="t4" class="text_4">Te<span style="color: rgb(255, 255, 255)">ch</span>no<span id="t5" style="color: rgba(35, 51, 52, 1)">logie</span>s</h2>
+                </a>  
+            </div>
+
+            <div class="social"><!--соцсети-->
+                <a  href="http://t.me/allone_tech"> <img class="telegram" id="telegram1" src="Main/telegram.svg"></a>
+                <a  href="https://wa.me/+79258591414"> <img class="whatsapp" id="whatsapp1" src="Main/whatsapp.svg"></a>
+                <a  href="5.Plug/index.html"> <img class="instagram" id="instagram1" src="Main/instagram.svg"></a>
+            </div>
+
+            <div><!--переход в блок О НАС-we are-->
+            <div id="www">
+                <a href="1.About/index.html">
+                    <img id="polosa1"class="polosa" src="Main/серая полоса.png">
+                    <img id="cod1" class="cod" src="Main/Штрих-код.png">
+                    <p id="wearw1" class="weare"> we are </p>
+                </a>
+            </div>
+            </div>
+
+            <div class="block_works"><!--переход в блок РАБОТЫ-WORKS-->
+                <a href="3.WORKS/index.html">
+                    <p class="WORKS" id="w">WO<span class="w" id="" style="color: #f0d16b">R</span>KS</p>
+                </a>
+            </div>
+        </section>
+
+    </div>  
 </body>
     <!--Тело Конец-->
 
