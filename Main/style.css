@@ -475,6 +475,176 @@ a {
 }
 
 
+/* @media (max-width: 1400px){ 
+  .section1 {
+    zoom: 100%; 
+  }
+  #m2{
+    display: none;
+  }
+  #m3{
+    display: none;
+  }
+  #m4{
+    display: none;
+  }
+  #height{
+    display: none;
+  }
+
+  #m1{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .logo {
+    left: 9%;
+  }
+  .social {
+    left: 0%;
+  }
+  .cloud_click {
+    left: 0%;
+  }
+  .block_works {
+    left: 48%;
+  }
+  #www {
+    top: 85%;
+  }
+  #wearw1 {
+  }
+  }  */
+
+
+
+@media (min-width: 1440px) and (max-width: 1480px){ 
+.section1 {
+  zoom: 100%; 
+}
+
+.logo {
+  zoom: 110%;
+}
+.social {
+  
+}
+.cloud_click {
+  
+}
+.block_works {
+  zoom: 105%;
+}
+#www {
+  
+}
+#wearw1 {
+  top: 45%;
+}
+} 
+
+@media (min-width: 1490px) and (max-width: 1610px){ 
+.section1 {
+  zoom: 100%; 
+}
+
+.logo {
+  zoom: 110%;
+}
+.social {
+  
+}
+.cloud_click {
+  
+}
+.block_works {
+  zoom: 105%;
+}
+#www {
+  
+}
+#wearw1 {
+  top: 45%;
+}
+} 
+
+@media (min-width: 1610px) and (max-width: 1700px){ 
+.section1 {
+  zoom: 110%; 
+}
+
+.logo {
+  zoom: 110%;
+}
+.social {
+  
+}
+.cloud_click {
+  
+}
+.block_works {
+  zoom: 105%;
+}
+#www {
+  
+}
+#wearw1 {
+  top: 45%;
+}
+} 
+
+@media (min-width: 1700px) and (max-width: 1820px){ 
+.section1 {
+  zoom: 120%; 
+}
+
+.logo {
+  zoom: 110%;
+}
+.social {
+  
+}
+.cloud_click {
+  
+}
+.block_works {
+  zoom: 105%;
+}
+#www {
+  
+}
+#wearw1 {
+  top: 45%;
+}
+} 
+
+@media (min-width: 1820px) and (max-width: 1960px){ 
+.section1 {
+  zoom: 130%; 
+}
+
+.logo {
+  zoom: 110%;
+}
+.social {
+  
+}
+.cloud_click {
+  
+}
+.block_works {
+  zoom: 105%;
+}
+#www {
+  
+}
+#wearw1 {
+  top: 45%;
+}
+} 
+
+
+
 @media (max-width: 1330px){ 
 .section1 {
   zoom: 100%; 
@@ -587,7 +757,7 @@ a {
 }
 }
 
-@media (min-height: 1024px) and (max-height: 1100px){
+/* @media (min-height: 1024px) and (max-height: 1070px){
 .section1 {
   zoom: 100%; 
 }
@@ -631,4 +801,62 @@ a {
 #wearw1 {
   top: 40%;
 }
+} */
+
+@media (min-width: 1280px) and (max-height: 1024px){
+
+  .section1 {
+    zoom: 100%; 
+  }
+
+  #m1 {
+    display:none;
+  }
+
+  #m2 {
+    display:none;
+  }
+
+  #m3 { 
+    display: none;
+  }
+
+  #m4 { 
+    display: none;
+  }
+
+  #height{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    left: 2%;
+    top: 12%;
+  }
+
+  .social {
+    left: 49%;
+    top: 35%;
+  }
+
+  .cloud_click {
+    left: 49.5%;
+    top: 11%;
+  }
+
+  .block_works {
+    left: 28%;
+    top: 24%;
+    zoom: 140%;
+  }
+
+  #www {
+    top: 85%;
+  }
+
+  #wearw1 {
+    top: 40%;
+  }
 }
