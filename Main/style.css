@@ -1,0 +1,478 @@
+html, body{
+  width:100%; height:100%; margin:0;
+    
+  background: #ffffff;
+
+  font-family: "More is less 22 Displacement";
+  font-family: "Inter";
+  font-family: "WG Patchwork";
+  font-family: "Chakra Petch";
+  font-family: "MACCOS DOUBLE Demo";
+  font-family: "TRASHED";
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+*,
+ *:before,
+ *:after {
+   box-sizing: border-box;
+ }
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+/*стили для БОДИ конец */
+
+
+/*контейнер*/
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.img1 {
+  width: 100%;
+  height: auto;
+}
+
+.imgs {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+
+
+/*Стили текстов*/
+.logo {
+  position: absolute;
+  width: 45%;
+  height: 8%;
+  left: 15%;
+  top: 11%;
+}
+
+.text_1 {
+  position: absolute;
+  font-family: 'More is less 22 Displacement';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 63px;
+  color: #000000;
+  text-shadow: 3px 2px 30px #FFFFFF;
+}
+.text_1 {
+  transition: 1s; /* Время эффекта */
+}
+.text_1:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+
+.text_2 {
+  left: 15%;
+  top: 25%;
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 42px;
+  color: #000000;
+}
+.text_2 {
+  transition: 1s; /* Время эффекта */
+}
+.text_2:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+
+.text_3 {
+  left: 22%;
+  top: 20%;
+  position: absolute;
+  font-family: 'WG Patchwork';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-shadow: 3px 2px 20px #FFFFFF;
+}
+.text_3 {
+  transition: 1s; /* Время эффекта */
+}
+.text_3:hover {
+  transform: scale(1.6); /* Увеличиваем масштаб */
+}
+
+.text_4 {
+  left: 40%;
+  top: 35%;
+  position: absolute;
+  font-family: 'TRASHED';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: 0.25em;
+  color: #000000;
+}
+ .text_4 {
+  transition: 1s; /* Время эффекта */ 
+}
+.text_4:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+/*Стили текстов конец*/
+
+
+/*соцсети */
+.social {
+  position: absolute;
+  width: 5%;
+  height: 18%;
+  left: 8%;
+  top: 11%;
+}
+
+.telegram {
+  position: absolute;
+  width: 78px;
+  height: 76.64px;
+
+  
+  background: url(main/telegram.svg;);
+  filter: drop-shadow(0px 4px 10px #FFFFFF);
+  transform: rotate(-4.28deg);
+}
+.telegram {
+  transition: 0.5s; /* Время эффекта */
+  text-align: center; 
+}
+.telegram:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.whatsapp {
+  position: absolute;
+  width: 68px;
+  height: 72px;
+  top: 28%;
+ 
+  background: url(/Main/whatsapp.svg)
+  filter: drop-shadow(0px 4px 10px #FFFFFF);
+}
+.whatsapp {
+  transition: 0.5s; /* Время эффекта */
+  text-align: center; 
+}
+.whatsapp:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.instagram {
+  position: absolute;
+  width: 81px;
+  height: 81px;
+  top: 55%;
+
+  background: url(353424-instagram-logo_107474.png);
+  filter: drop-shadow(0px 4px 20px #FFFFFF);
+  transform: rotate(-15.37deg);
+}
+.instagram {
+  transition: 0.5s; /* Время эффекта */
+  text-align: center; 
+}
+.instagram:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+/*соцсети *
+
+
+/* Облоко */
+.cloud_click {
+  position: absolute;
+  width: 5%;
+  height: 6%;
+  left: 7.5%;
+  top: 29%;
+  z-index: 1;
+}
+.cloud {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  background: url(download-black-cloud-interface-symbol-with-down-arrow-inside_icon-icons.png);
+  filter: drop-shadow(0px 4px 20px #FFFFFF);
+  z-index: 1;
+}
+.cloud {
+  transition: 0.5s; /* Время эффекта */
+  text-align: center; 
+}
+.cloud:hover {
+  transform: scale(1.8); /* Увеличиваем масштаб */
+}
+/* Облоко */
+/
+
+
+/*другие элементы,штрих код,полоса,текст */
+.div {
+  position: absolute;
+}
+#www {
+  position: absolute;
+  width: 25%;
+  height: 5%;
+  top: 75%;
+}
+
+.polosa {
+  position: absolute;
+  width: 250px;
+  height: 38px;
+  left: 0%;
+  transform: translateX(-150%);
+  animation: ani 2s forwards;
+}
+@keyframes ani {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
+.weare {
+  position: absolute;
+  left: 10%;
+  top: 53%;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 2.2em;
+  color: #FFFFFF;
+  transform: translateX(-150%);
+  animation: ani 7s forwards;
+}
+@keyframes ani {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
+
+.cod {
+  position: absolute;
+  width: 225px;
+  height: 22px;
+  left: 6.5%;
+  top: 2.4%;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 2.3em;
+  color: #FFFFFF;
+  transform: translateX(-150%);
+  animation: ani 6s forwards;
+}
+@keyframes ani {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
+/*другие элементы,штрих код,полоса,текст.КОНЕЦ*/
+
+
+/*Блок WORKS*/
+.block_works {
+  position: absolute;
+  width: 12%;
+  height: 15%;
+  left: 52%;
+  top: 25%;
+  
+}
+.WORKS {
+  position: absolute;
+  top: 40%;
+  left: 9%;
+  font-family: 'MACCOS DOUBLE Demo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-shadow: 2px 6px 4px rgba(255, 255, 255, 0.4);
+  transform: matrix(1, 0.33, 0.02, 0.96, 0, 0);
+}
+
+/*АНИМАЦИЯ МИРЦАНИЯ WORKS*/
+.w {
+  color: #fff;
+  text-shadow:
+  /* White glow */
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  /* Green glow */
+  0 0 42px #EDD394,
+  0 0 82px #EDD394,
+  0 0 92px #EDD394,
+  0 0 102px #EDD394,
+  0 0 151px #EDD394;
+}
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  text-shadow:
+  0 0 4px #fff,
+  0 0 11px #fff,
+  0 0 19px #fff,
+  0 0 40px #775b18,
+  0 0 80px #9b7d38,
+  0 0 90px #EDD394,
+  0 0 100px #f7b825,
+  0 0 111px #EDD394;
+  }
+  20%, 24%, 55% {       
+  text-shadow: none;
+  }
+}
+
+.w {
+  animation: flicker 1.3s infinite alternate;
+  color: rgb(255, 255, 255);
+}
+/*АНИМАЦИЯ МИРЦАНИЯ WORKS КОНЕЦ*/
+
+/*Блок загрузки прелайдер */
+.preloader {
+  /*фиксированное позиционирование*/
+  position: fixed;
+  /* координаты положения */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* фоновый цвет элемента */
+  background: #e0e0e0;
+  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 1s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 1s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: 8s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 6.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+/*Блок загрузки прелайдер конец*/
+
+/* 
+800x600	779x431	
+1024x768	    1003x599	
+1280x800	    1259x631	
+1280x1024	    1259x855	
+1400x1050	    1379x881	
+1440x900	    1419x731	
+1600x1200	    1579x1031	
+1680x1050	    1659x881 */
+
+
+/* Брек поинт */
+
+/* .img2 {
+  display: none;
+}
+
+
+@media (max-width: 1280px){ 
+.section1 {
+  zoom: 100%; 
+}
+
+.img1{
+  display: none;
+}
+
+.img2{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+} */
+
+
+
+  
+  
