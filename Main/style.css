@@ -734,7 +734,132 @@ a {
   top: 45%;
 }
 } 
+
+@media (min-width: 2700px) and (max-width: 2900px){ 
+.section1 {
+  zoom: 195%; 
+}
+
+.logo {
+  zoom: 110%;
+}
+.social {
   
+}
+.cloud_click {
+  
+}
+.block_works {
+  zoom: 100%;
+}
+#www {
+  
+}
+#wearw1 {
+  top: 45%;
+}
+} 
+
+@media (min-width: 2900px) and (max-width: 3100px){ 
+.section1 {
+  zoom: 195%; 
+}
+
+.logo {
+  zoom: 110%;
+}
+.social {
+  
+}
+.cloud_click {
+  
+}
+.block_works {
+  zoom: 100%;
+}
+#www {
+  
+}
+#wearw1 {
+  top: 45%;
+}
+} 
+
+@media (min-width: 3100px) and (max-width: 3250px){ 
+.section1 {
+  zoom: 205%; 
+}
+
+.logo {
+  zoom: 110%;
+}
+.social {
+  
+}
+.cloud_click {
+  
+}
+.block_works {
+  zoom: 100%;
+}
+#www {
+  
+}
+#wearw1 {
+  top: 45%;
+}
+} 
+
+@media (min-width: 3250px) and (max-width: 3350px){ 
+.section1 {
+  zoom: 220%; 
+}
+
+.logo {
+  zoom: 110%;
+}
+.social {
+  
+}
+.cloud_click {
+  
+}
+.block_works {
+  zoom: 100%;
+}
+#www {
+  
+}
+#wearw1 {
+  top: 45%;
+}
+} 
+
+@media (min-width: 3350px) and (max-width: 4000px){ 
+.section1 {
+  zoom: 235%; 
+}
+
+.logo {
+  zoom: 110%;
+}
+.social {
+  
+}
+.cloud_click {
+  
+}
+.block_works {
+  zoom: 100%;
+}
+#www {
+  
+}
+#wearw1 {
+  top: 45%;
+}
+} 
+
 
 
 @media (max-width: 1330px){ 
