@@ -934,7 +934,47 @@ a {
 }
 } 
 
-@media (max-width: 1275px){ 
+@media (max-width: 1285px){ 
+.section1 {
+  zoom: 88%; 
+}
+.img3 {
+  display:none;
+}
+#m2 { 
+  display: none;
+}
+#m2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.logo {
+  left: 8%;
+  top: 11%;
+  zoom: 110%;
+}
+.social {
+  left: 0.4%;
+  top: 11%;
+}
+.cloud_click {
+  left: 0.1%;
+  top: 30%;
+}
+.block_works {
+  left: 47.2%;
+  top: 24%;
+  zoom: 125%;
+}
+#www {
+  top: 85%;
+}
+#wearw1 {
+}
+} 
+
+@media (max-width: 1278px){ 
 .section1 {
   zoom: 88%; 
 }
